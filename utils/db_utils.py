@@ -26,8 +26,7 @@ def create_update_query(table, dtf, constraint):
 
 
 def load_updates(df, table, engine, constraint):
-    """This function loads a dataframe into the raw_google_ad_manager
-       table on the product-analytics server using an upser.
+    """This function loads a dataframe into the table using an upsert.
        
        df - pandas dataframe containing the data to upsert
        table - string name of the database table to update
