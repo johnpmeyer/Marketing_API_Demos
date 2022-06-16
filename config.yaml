@@ -1,0 +1,7 @@
+#note: these are intentionally fake params. And this type of YAML file would not be uploaded to Github for obvious reasons.
+#    : but I included it here for to demonstrate how these get used.
+
+raw_marketing_pipeline_data:
+  user: 'db_username'
+  password: 'db_password'
+  database_url: 'url_to_database'
